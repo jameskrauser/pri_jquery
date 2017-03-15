@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script>
+		$(document).ready( function(){
+				$("#bt1").click( function(){
+					$("#id1").html("chage");
+				});
+				$("#bt2").click( function(){
+					$("#inputid").val("changed");
+				});
+				$("#bt3").click( function(){
+					$("#id2").html("<b> <font color=red> turn up </font> </b>");
+				
+				});
+		});
+	
+	</script>
+	<title>
+		
+	</title>
+
+</head>
+<body>
+	<p id="id1"> first text </p>	
+	<p> input field: <input type="text" id="inputid" value="james"> </p>
+	<p id="id2"> second text </p>
+	
+	<button id="bt1">first button </button>
+	<button id="bt2">second button</button>
+	<button id="bt3">set value </button>
+
+</body>
+</html>
